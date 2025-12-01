@@ -8,6 +8,7 @@
 */
 function ftnSalutation(){
   //  implement your statement(s) here
+  return new Array("Mr.", "Mrs.", "Ms.", "Dr.");
 }
 
 /* 
@@ -29,3 +30,12 @@ Hint:
 - validateInputs returns false if either choice or name is incorrectly filled
 - validateInputs returns true if both choice and name are correctly filled
 */
+
+function validateInputs(choice, name){
+  name
+  
+  if(choice === "" || name ==="")
+    return;
+
+  return true;
+}
