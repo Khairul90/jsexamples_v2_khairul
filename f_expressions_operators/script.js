@@ -1,6 +1,10 @@
 // Source - https://stackoverflow.com/a
 // Posted by JavaAndCSharp, modified by community. See post 'Timeline' for change history
+<<<<<<< HEAD
 // Retrieved 2025-11-27, License - CC BY-SA 4.0
+=======
+// Retrieved 2025-11-28, License - CC BY-SA 4.0
+>>>>>>> f9590f637c3e0f0120c70ac04ff5853a182e4710
 
 var Small = { 
   'zero': 0, 'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10, 
@@ -48,8 +52,14 @@ function feach(w) {
   }
 }
 
+<<<<<<< HEAD
 /*
 console.log(text2num("one thousand two hundred fifteen")); // Outputs: 1215
 console.log(text2num("one thousand fifteen")); // Outputs: 1015
 console.log(text2num("fifteen")); // Outputs: 15
 */
+=======
+// console.log(text2num("one thousand two hundred fifteen")); // Outputs: 1215
+// console.log(text2num("one thousand fifteen")); // Outputs: 1015
+// console.log(text2num("fifteen")); // Outputs: 15
+>>>>>>> f9590f637c3e0f0120c70ac04ff5853a182e4710

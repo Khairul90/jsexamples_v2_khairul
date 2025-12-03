@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 function ftnGreeting(salutation, user){
@@ -10,6 +11,8 @@ function ftnGreeting(salutation, user){
 const result = ftnGreeting("Mr.", "Jones");
 console.log(result);
 
+=======
+>>>>>>> f9590f637c3e0f0120c70ac04ff5853a182e4710
 // 1. Writing a function declaration
 function ftnGreeting(salutation, user){
 
@@ -34,8 +37,24 @@ const anothersum = ftnAdd(); // Passing in ZERO ARGUMENTS
 console.log(anothersum);
 
 // 3. Arrow Function
+<<<<<<< HEAD
 const anotherftnGreeting = (salutation, name) => {
 
     const msg = `Hello,  ${salutation} {name}. Welcom to Generation Bootcamp`;
 }
 console.log(anotherftnGreeting("Ms.", "Fareeda"));
+=======
+// Allow the function to handle non-existent arguments
+const anotherftnGreeting = (salutation = "", name = "") => {
+
+    // Handle empty string values 
+    if(salutation.length == 0 && name.length == 0)
+        return "Please enter your salutation and name.";
+
+    // Otherwise, return the appropriate feedback
+    return `Hello, ${salutation} ${name}. Welcome to Generation Bootcamp.`;
+};
+
+console.log(anotherftnGreeting("Ms.", "Fareeda"));
+console.log(anotherftnGreeting());                  // No parameter is passed to function anotherftnGreeting
+>>>>>>> f9590f637c3e0f0120c70ac04ff5853a182e4710

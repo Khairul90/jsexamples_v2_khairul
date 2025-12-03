@@ -19,6 +19,7 @@ function ftnSalutation(){
 */
 const ftnGreeting = (salutation, user) => {
     //  implement your statement(s) here
+    return `Hi, ${salutation} ${user}!`;
 }
 
 /*
@@ -30,6 +31,7 @@ Hint:
 - validateInputs returns false if either choice or name is incorrectly filled
 - validateInputs returns true if both choice and name are correctly filled
 */
+<<<<<<< HEAD
 
 function validateInputs(choice, name){
   name
@@ -38,4 +40,10 @@ function validateInputs(choice, name){
     return;
 
   return true;
+=======
+function validateInputs(choice = "", name = ""){
+
+  return choice !== "" && name !== "";
+
+>>>>>>> f9590f637c3e0f0120c70ac04ff5853a182e4710
 }

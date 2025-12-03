@@ -1,4 +1,18 @@
 {
+<<<<<<< HEAD
+=======
+  "name": "b_typecasting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node greetuser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+>>>>>>> f9590f637c3e0f0120c70ac04ff5853a182e4710
   "dependencies": {
     "prompt-sync": "^4.2.0"
   }
